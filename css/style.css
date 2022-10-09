@@ -47,7 +47,7 @@ button:hover{
 /* The hero image*/
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cmgt-portfolio/img/banner.png");
 
     /* Set a specific height */
     height: 60vw;
