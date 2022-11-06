@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/cmgt-portfolio/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Portfolio Niels Witberg</title>
 </head>
 <body>
     
     <header>
-        <img src="/cmgt-portfolio/img/logo.png" alt="mylogo" width="100px" height="100px">
+        <img src="/img/logo.png" alt="mylogo" width="100vw" height="100vw">
     </header>
     <nav>
         <button class="button"><a href="#Wie">Wie ben ik?</a></button>
@@ -18,29 +18,34 @@
         <button class="button"><a href="#Waar">Waar ben ik?</a></button>
         <button class="button"><a href="#Contact">Contact</a></button>
     </nav>
+
     <div class="hero-image">
         <div class="hero-text">
             <h1>Niels Witberg</h1>
-            <p>Ik ben een Webdesigner</p>
+            <p>Ik ben een Webdesigner die de opleiding cmgt volgt op de Hogeschool Rotterdam.</p>
             <button><a href="#Contact">Contact</a></button>
         </div>
     </div>
-
-
+    <main>
     <section id="wie">
         <h2>Wie ben ik?</h2>
+
         <p>Mijn naam is <b>Niels Witberg</b> en ik ben 23 jaar.  ik kom uit Rotterdam. Ik heb een diploma op het Grafisch Lyceum Rotterdam.</p>
+
         <p>Naast websites maken heb ik meerdere hobbies zoals:</p>
+
         <ul>
             <li>Gamen</li>
             <li>Longboaden</li>
             <li>Fitness</li>
             <li>Leuke evenementen bijwonen</li>
         </ul>
+
         <div class="cardcontainer">
             <h3>Gamen</h3>
+
             <p>Gamen is een van mijn favoriete bezigheden. Ik houd van games zoals:</p>
-            <img src="/cmgt-portfolio/img/playingGames.png" alt="Games die ik speel">
+            <img src="/img/playingGames.png" alt="Games die ik speel">
             <ul>
                 <li>Overwatch</li>
                 <li>Witcher 3</li>
@@ -74,13 +79,13 @@
         <br>
         
     </section>
-
+</main>
     <section id="waar">
         <h2>Waar ben ik?</h2>
         <p>I bied mijn service aan als <b>Webdesigner</b> en <b>Programmeur</b> in Rotterdam en omstreken. </p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.910395328108!2d4.484655799999993!3d51.917345899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4335dd0e438b7%3A0x959fe70b7905f2a4!2sHogeschool%20Rotterdam%20-%20Wijnhaven%2099!5e0!3m2!1snl!2snl!4v1665341258656!5m2!1snl!2snl"
-            allowfullscreen="" loading="lazy"
+            allowfullscreen="" loading="lazy" title="map of my where I provide my website making services"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
         <br><br>
@@ -88,18 +93,21 @@
 
     <section id="Contact">
         <h2>Contact</h2>
-        <p>laat een bericht achter!</p>
+        <p>Helaas is het op dit moment niet mogelijk om een bericht achter te laten vanwege een ontbrekend script.</p>
         <form action="_blank">
             <label for="voorNaam">Voornaam:</label><br>
-            <input type="text" id="voorNaam" name="voorNaam" value="Niels"><br>
+            <input type="text" id="voorNaam" name="voorNaam" placeholder="Niels"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"  placeholder="1006526@hr.nl"><br>
 
             <label for="achterNaam">Achternaam:</label><br>
-            <input type="text" id="achterNaam" name="achterNaam" value="Witberg"><br>
+            <input type="text" id="achterNaam" name="achterNaam" placeholder="Witberg"><br>
 
             <label for="bericht">bericht:</label><br>
-            <textarea name="bericht" id="bericht" cols="30" rows="10"></textarea><br><br>
+            <textarea name="bericht" id="bericht" cols="25" rows="10" placeholder="Laat hier een bericht achter"></textarea><br><br>
 
-            <input type="submit" value="Submit" disabled="Disabled">
+            <input type="submit" value="Submit">
             <br><br>
         </form>
 
