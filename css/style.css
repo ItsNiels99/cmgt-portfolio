@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    height: 100%;
+    height: 100%;   
 }
 h1 {
     margin: 5vw;
@@ -44,10 +44,8 @@ button:hover{
 }
 
 
-/* The hero image*/
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/cmgt-portfolio/img/banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/banner.png");
 
     /* Set a specific height */
     height: 60vw;
@@ -107,6 +105,7 @@ button:hover{
 .cardcontainer img{
     width: 90vw;
     margin: auto;
+    background-size: cover;
 }
 .hobbycards{
     width: 100vw;
@@ -125,7 +124,7 @@ button:hover{
 
 
 #wat {
-    background-color: green;
+    background-color: #3e5f8a;
     color: white;
 
 }
@@ -150,7 +149,12 @@ button:hover{
     height: 60vw;
     margin: auto;
 }
-
+input:valid{
+    background-color: lightgreen;
+}
+input:invalid{
+    background-color: lightcoral;
+}
 
 #Contact{
     margin-bottom: 20vw;
@@ -188,6 +192,10 @@ footer {
     nav{
         margin-bottom: 10px;
     }
+    .hero-image {
+    /* Set a specific height */
+    height: 80vw;
+    }
 
 }
 
@@ -200,7 +208,10 @@ footer {
         display: block;
         margin-bottom: 20px;
     }
-
+    .hero-image {
+    /* Set a specific height */
+    height: 40vw;
+}
 }
 
 /* SMALL LAPTOP */
@@ -208,6 +219,10 @@ footer {
     nav {
             display: block;
             margin-bottom: 20px;
+        }
+        .hero-image {
+            /* Set a specific height */
+            height: 40vw;
         }
 }
 
@@ -231,5 +246,9 @@ footer {
         justify-content: space-evenly;
         text-align: center;
     }
+    .hero-image {
+        /* Set a specific height */
+        height: 40vw;
+        }
 
 }
