@@ -31,9 +31,9 @@ nav {
     margin: 0 auto;
     margin-bottom: 5%;
 }
-
+/*deze foto wordt niet overgenomen op de github. Het maakt niet uit wat ik verander. Github vind deze foto helemaal niks.  */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/hero.jpg");
 
     /* Set a specific height */
     height: 60vw;
@@ -188,10 +188,6 @@ nav {
     }
 }
 
-.callout {
-    margin: 0;
-}
-
 #wat {
     background-color: whitesmoke;
     display: flex;
@@ -239,7 +235,7 @@ nav {
 }
 #contact label{
     text-align: center;
-    margin: 5% au;
+    margin: 5%;
 }
 
 #contact textarea {
@@ -291,6 +287,31 @@ footer {
 }
 
 .buttonGroupCocials a:hover {
-    font-size: 150%;
+    font-size: 15em;
 }
 
+#periode_1{
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
+    color: white;
+}
+#periode_1 p {
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+#periode_2 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+#periode_2 p {
+    margin: 0 auto;
+    width: 90vw; 
+    display: flex;
+    text-align: center;
+}
